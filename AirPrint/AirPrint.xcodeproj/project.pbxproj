@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8745F32E1DE4318F0070A924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745F32D1DE4318F0070A924 /* main.m */; };
+		8745F3311DE4318F0070A924 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745F3301DE4318F0070A924 /* AppDelegate.m */; };
+		8745F3371DE4318F0070A924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8745F3351DE4318F0070A924 /* Main.storyboard */; };
+		8745F3391DE4318F0070A924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8745F3381DE4318F0070A924 /* Assets.xcassets */; };
+		8745F33C1DE4318F0070A924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8745F33A1DE4318F0070A924 /* LaunchScreen.storyboard */; };
+		8745F3451DE436700070A924 /* TextEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745F3441DE436700070A924 /* TextEditorViewController.m */; };
+		8745F3481DE436980070A924 /* WebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745F3471DE436980070A924 /* WebBrowserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8745F3291DE4318F0070A924 /* AirPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8745F32D1DE4318F0070A924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8745F32F1DE4318F0070A924 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8745F3301DE4318F0070A924 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8745F3361DE4318F0070A924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8745F3381DE4318F0070A924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8745F33B1DE4318F0070A924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8745F33D1DE4318F0070A924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8745F3431DE436700070A924 /* TextEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEditorViewController.h; sourceTree = "<group>"; };
+		8745F3441DE436700070A924 /* TextEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEditorViewController.m; sourceTree = "<group>"; };
+		8745F3461DE436980070A924 /* WebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserViewController.h; sourceTree = "<group>"; };
+		8745F3471DE436980070A924 /* WebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8745F3261DE4318F0070A924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8745F3201DE4318F0070A924 = {
+			isa = PBXGroup;
+			children = (
+				8745F32B1DE4318F0070A924 /* AirPrint */,
+				8745F32A1DE4318F0070A924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8745F32A1DE4318F0070A924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8745F3291DE4318F0070A924 /* AirPrint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8745F32B1DE4318F0070A924 /* AirPrint */ = {
+			isa = PBXGroup;
+			children = (
+				8745F32F1DE4318F0070A924 /* AppDelegate.h */,
+				8745F3301DE4318F0070A924 /* AppDelegate.m */,
+				8745F3351DE4318F0070A924 /* Main.storyboard */,
+				8745F3381DE4318F0070A924 /* Assets.xcassets */,
+				8745F33A1DE4318F0070A924 /* LaunchScreen.storyboard */,
+				8745F33D1DE4318F0070A924 /* Info.plist */,
+				8745F32C1DE4318F0070A924 /* Supporting Files */,
+				8745F3431DE436700070A924 /* TextEditorViewController.h */,
+				8745F3441DE436700070A924 /* TextEditorViewController.m */,
+				8745F3461DE436980070A924 /* WebBrowserViewController.h */,
+				8745F3471DE436980070A924 /* WebBrowserViewController.m */,
+			);
+			path = AirPrint;
+			sourceTree = "<group>";
+		};
+		8745F32C1DE4318F0070A924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8745F32D1DE4318F0070A924 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8745F3281DE4318F0070A924 /* AirPrint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8745F3401DE4318F0070A924 /* Build configuration list for PBXNativeTarget "AirPrint" */;
+			buildPhases = (
+				8745F3251DE4318F0070A924 /* Sources */,
+				8745F3261DE4318F0070A924 /* Frameworks */,
+				8745F3271DE4318F0070A924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPrint;
+			productName = AirPrint;
+			productReference = 8745F3291DE4318F0070A924 /* AirPrint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8745F3211DE4318F0070A924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = scrum_snail;
+				TargetAttributes = {
+					8745F3281DE4318F0070A924 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VGXYJ6BWCJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8745F3241DE4318F0070A924 /* Build configuration list for PBXProject "AirPrint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8745F3201DE4318F0070A924;
+			productRefGroup = 8745F32A1DE4318F0070A924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8745F3281DE4318F0070A924 /* AirPrint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8745F3271DE4318F0070A924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8745F33C1DE4318F0070A924 /* LaunchScreen.storyboard in Resources */,
+				8745F3391DE4318F0070A924 /* Assets.xcassets in Resources */,
+				8745F3371DE4318F0070A924 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8745F3251DE4318F0070A924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8745F3311DE4318F0070A924 /* AppDelegate.m in Sources */,
+				8745F3451DE436700070A924 /* TextEditorViewController.m in Sources */,
+				8745F3481DE436980070A924 /* WebBrowserViewController.m in Sources */,
+				8745F32E1DE4318F0070A924 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8745F3351DE4318F0070A924 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8745F3361DE4318F0070A924 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8745F33A1DE4318F0070A924 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8745F33B1DE4318F0070A924 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8745F33E1DE4318F0070A924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8745F33F1DE4318F0070A924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8745F3411DE4318F0070A924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VGXYJ6BWCJ;
+				INFOPLIST_FILE = AirPrint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.AirPrint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8745F3421DE4318F0070A924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VGXYJ6BWCJ;
+				INFOPLIST_FILE = AirPrint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.AirPrint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8745F3241DE4318F0070A924 /* Build configuration list for PBXProject "AirPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8745F33E1DE4318F0070A924 /* Debug */,
+				8745F33F1DE4318F0070A924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8745F3401DE4318F0070A924 /* Build configuration list for PBXNativeTarget "AirPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8745F3411DE4318F0070A924 /* Debug */,
+				8745F3421DE4318F0070A924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8745F3211DE4318F0070A924 /* Project object */;
+}
